@@ -1,0 +1,5 @@
+{
+  "name": "git-author-check",
+  "version": "1.0.0",
+  "description": "Validates git author email before commits to prevent wrong-identity commits that require interactive rebase to fix."
+}

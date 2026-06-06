@@ -1,0 +1,123 @@
+{
+  "name": "zhipeng-personal",
+  "owner": {
+    "name": "Zhipeng Jiang"
+  },
+  "description": "Personal curated Claude Code plugins",
+  "plugins": [
+    {
+      "name": "permissions-manager",
+      "source": "./plugins/permissions-manager",
+      "description": "Manage Claude Code permissions by updating settings files to permanently allow or deny tools and commands.",
+      "category": "core"
+    },
+    {
+      "name": "pr-feedback-addresser",
+      "source": "./plugins/pr-feedback-addresser",
+      "description": "Address PR review feedback by responding to comments, applying thumbs up reactions, and resolving review threads.",
+      "category": "git"
+    },
+    {
+      "name": "code-reviewer",
+      "source": "./plugins/code-reviewer",
+      "description": "Generic code reviewer agent. Adapts to repo-specific guidelines in AGENTS.md.",
+      "category": "review"
+    },
+    {
+      "name": "security-review",
+      "source": "./plugins/security-review",
+      "description": "Security-focused code review for pull requests. Detects vulnerabilities, secret exposure, and security misconfigurations.",
+      "category": "review"
+    },
+    {
+      "name": "bash-error-diagnostics",
+      "source": "./plugins/bash-error-diagnostics",
+      "description": "Reduces silent Bash failures with pipeline guidance and structured error classification to prevent blind retries.",
+      "category": "diagnostics"
+    },
+    {
+      "name": "time-awareness",
+      "source": "./plugins/time-awareness",
+      "description": "Injects current system time and timezone into Claude's context on every tool call. Opt-in via .time-awareness.json config file.",
+      "category": "utility"
+    },
+    {
+      "name": "web-search",
+      "source": "./plugins/web-search",
+      "description": "Search the web using Copilot CLI. Use when you need to look up documentation, find recent news, or get up-to-date information.",
+      "category": "utility"
+    },
+    {
+      "name": "compaction-monitor",
+      "source": "./plugins/compaction-monitor",
+      "description": "Monitor context utilization and compaction frequency to warn about quality degradation.",
+      "category": "utility"
+    },
+    {
+      "name": "plugin-create",
+      "source": "./plugins/plugin-create",
+      "description": "Create and manage plugin components (skills, plugins, MCP servers, agents, commands, hooks) across all tiers.",
+      "category": "meta"
+    },
+    {
+      "name": "git-author-check",
+      "source": "./plugins/git-author-check",
+      "description": "Validates git author email before commits to prevent wrong-identity commits that require interactive rebase to fix.",
+      "category": "git"
+    },
+    {
+      "name": "git-branch",
+      "source": "./plugins/git-branch",
+      "description": "Generate a conventional, kebab-case git branch name from a change description or staged diff.",
+      "category": "git"
+    },
+    {
+      "name": "git-commit",
+      "source": "./plugins/git-commit",
+      "description": "Analyze code changes and generate a single Conventional Commits message.",
+      "category": "git"
+    },
+    {
+      "name": "pr-writer",
+      "source": "./plugins/pr-writer",
+      "description": "Compare the current branch against the main branch and produce a PR title and description in Conventional Commits style.",
+      "category": "git"
+    },
+    {
+      "name": "code-simplifier",
+      "source": "./plugins/code-simplifier",
+      "description": "Simplifies and refines code for clarity, consistency, and maintainability while preserving functionality.",
+      "category": "review"
+    },
+    {
+      "name": "technical-debt-manager",
+      "source": "./plugins/technical-debt-manager",
+      "description": "Expert technical debt analyst for code health, maintainability, and strategic refactoring planning.",
+      "category": "review"
+    },
+    {
+      "name": "conversation-summary",
+      "source": "./plugins/conversation-summary",
+      "description": "Injects a conversation summary reminder into Claude's context on every tool call. Opt-in via .conversation-summary.json config file.",
+      "category": "utility"
+    },
+    {
+      "name": "retry-loop-detector",
+      "source": "./plugins/retry-loop-detector",
+      "description": "Detects and warns when tools are called repeatedly with identical arguments, preventing context-wasting retry loops.",
+      "category": "guardrail"
+    },
+    {
+      "name": "circuit-breaker",
+      "source": "./plugins/circuit-breaker",
+      "description": "Tracks consecutive identical tool failures and blocks further attempts after 3 failures. Allowlists transient errors (429, ETIMEDOUT, DNS).",
+      "category": "guardrail"
+    },
+    {
+      "name": "sleep-cap",
+      "source": "./plugins/sleep-cap",
+      "description": "Blocks excessive sleep commands in Bash tool calls to prevent wasted wall-clock time.",
+      "category": "guardrail"
+    }
+  ]
+}

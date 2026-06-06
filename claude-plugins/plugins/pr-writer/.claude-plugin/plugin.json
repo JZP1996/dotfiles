@@ -1,0 +1,5 @@
+{
+  "name": "pr-writer",
+  "version": "1.0.0",
+  "description": "Compare the current branch against the main branch and produce a PR title and description in Conventional Commits style."
+}

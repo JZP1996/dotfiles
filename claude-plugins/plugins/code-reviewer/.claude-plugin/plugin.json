@@ -1,0 +1,5 @@
+{
+  "name": "code-reviewer",
+  "version": "1.0.0",
+  "description": "Generic code reviewer agent for any repository. Adapts to repo-specific guidelines in AGENTS.md."
+}

@@ -1,0 +1,5 @@
+{
+  "name": "web-search",
+  "version": "1.0.0",
+  "description": "Search the web using Copilot CLI. Use when you need to look up documentation, find recent news, or get up-to-date information."
+}

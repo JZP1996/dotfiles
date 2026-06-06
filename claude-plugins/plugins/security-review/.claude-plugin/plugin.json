@@ -1,0 +1,5 @@
+{
+  "name": "security-review",
+  "version": "1.0.0",
+  "description": "Security-focused code review for pull requests. Detects vulnerabilities, secret exposure, and security misconfigurations."
+}

@@ -1,0 +1,5 @@
+{
+  "name": "sleep-cap",
+  "version": "1.0.0",
+  "description": "Blocks excessive sleep commands in Bash tool calls to prevent wasted wall-clock time"
+}

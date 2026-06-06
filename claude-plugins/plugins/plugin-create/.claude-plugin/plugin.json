@@ -1,0 +1,5 @@
+{
+  "name": "plugin-create",
+  "version": "2.0.0",
+  "description": "Create and manage Claude Code, Codex, GitHub Copilot, and other coding agent plugin components (skills, plugins, MCP servers, agents, commands, hooks) across all tiers. General-use, org-specific, repo-specific, and/or local-only. Use when users want to create, configure, or troubleshoot any plugin component."
+}

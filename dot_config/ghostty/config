@@ -1,0 +1,33 @@
+# Font
+adjust-cell-height = 20%
+font-family = "JetBrainsMono Nerd Font Mono"
+font-size = 13
+font-thicken = true
+
+# Optimization
+copy-on-select = clipboard
+confirm-close-surface = false
+
+# Theme
+theme = Bluloco Light
+
+# Appearance
+background-opacity = 0.85
+background-blur-radius = 30
+macos-titlebar-style = transparent
+window-padding-y = 10,0
+window-padding-x = 10,0
+window-save-state = always
+window-theme = auto
+
+# Cursor
+cursor-style = bar
+cursor-style-blink = true
+cursor-opacity = 0.8
+
+# Mouse
+mouse-hide-while-typing = true
+
+# Security
+clipboard-paste-protection = true
+clipboard-paste-bracketed-safe = true

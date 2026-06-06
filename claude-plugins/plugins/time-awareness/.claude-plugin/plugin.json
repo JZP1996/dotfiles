@@ -1,0 +1,5 @@
+{
+  "name": "time-awareness",
+  "version": "1.0.0",
+  "description": "Injects current system time and timezone into Claude's context on every tool call. Opt-in via .time-awareness.json config file."
+}

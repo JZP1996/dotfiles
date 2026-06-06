@@ -1,9 +1,24 @@
-# Global Claude Code Guidelines
+# Global Claude Guidelines
 
-## Language# Language
+## Language
 
-- Always respond in Simplified Chinese.
-- Code comments, logs, and in-code documentation must use English (US).
+- Default conversational language is **Simplified Chinese**. This applies to ALL natural-language output directed at the user, including:
+  - Explanations, discussions, analysis, and chat replies.
+  - The FIRST message of any new task or session (do not "warm up" in English).
+  - Your internal reasoning / thinking, when reasoning is surfaced.
+- This language rule has HIGH priority. If you catch yourself starting in English, stop and restate in Simplified Chinese.
+- English is used ONLY for code-related content (see below).
+  - Source code
+  - Code comments
+  - Code snippets inside Markdown code fences (```...```)
+  - Configuration files
+  - CLI commands and examples
+  - Technical documentation intended to be copied into codebases (e.g. README, API docs, design docs)
+
+## Response Format
+
+- End every normal response with (in a new line): (๑˃ᴗ˂)ﻭ
+- When generating content that requires strict formatting (such as code, JSON, YAML, SQL, configuration files, or structured documents), do not insert extra text inside the generated content. If needed, append `(๑˃ᴗ˂)ﻭ` only outside the formatted content.
 
 ## Core Principles
 

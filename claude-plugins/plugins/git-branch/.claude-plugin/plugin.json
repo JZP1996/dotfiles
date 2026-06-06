@@ -1,0 +1,5 @@
+{
+  "name": "git-branch",
+  "version": "1.0.0",
+  "description": "Generate a conventional, kebab-case git branch name from a change description or staged diff."
+}

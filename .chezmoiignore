@@ -1,0 +1,10 @@
+README.md
+CLAUDE.md
+claude-plugins
+claude-plugins/**
+{{ if eq .chezmoi.os "windows" }}
+.zsh
+.zsh/**
+.config/ghostty
+.config/ghostty/**
+{{ end }}

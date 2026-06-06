@@ -1,0 +1,17 @@
+{
+  "description": "Block sleep commands exceeding configurable threshold (default 60s) with run_in_background rewrite suggestions",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/run-hook.js\"",
+            "timeout": 2
+          }
+        ]
+      }
+    ]
+  }
+}

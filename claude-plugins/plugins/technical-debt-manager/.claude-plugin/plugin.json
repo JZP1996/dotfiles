@@ -1,0 +1,5 @@
+{
+  "name": "technical-debt-manager",
+  "version": "1.0.0",
+  "description": "Expert technical debt analyst for code health, maintainability, and strategic refactoring planning. Identifies, quantifies, and prioritizes technical debt across 7 categories."
+}
