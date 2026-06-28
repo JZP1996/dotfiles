@@ -1,0 +1,93 @@
+{
+  "name": "zhipeng-personal",
+  "owner": {
+    "name": "Zhipeng Jiang"
+  },
+  "description": "Personal curated Claude Code plugins",
+  "plugins": [
+    {
+      "name": "permissions-manager",
+      "source": "./plugins/permissions-manager",
+      "description": "Manage Claude Code permissions by updating settings files to permanently allow or deny tools and commands.",
+      "category": "core"
+    },
+    {
+      "name": "pr-feedback-addresser",
+      "source": "./plugins/pr-feedback-addresser",
+      "description": "Address PR review feedback by responding to comments, applying thumbs up reactions, and resolving review threads.",
+      "category": "git"
+    },
+    {
+      "name": "bash-error-diagnostics",
+      "source": "./plugins/bash-error-diagnostics",
+      "description": "Reduces silent Bash failures with pipeline guidance and structured error classification to prevent blind retries.",
+      "category": "diagnostics"
+    },
+    {
+      "name": "time-awareness",
+      "source": "./plugins/time-awareness",
+      "description": "Injects current system time and timezone into Claude's context on every tool call. Opt-in via .time-awareness.json config file.",
+      "category": "utility"
+    },
+    {
+      "name": "web-search",
+      "source": "./plugins/web-search",
+      "description": "Search the web using Copilot CLI. Use when you need to look up documentation, find recent news, or get up-to-date information.",
+      "category": "utility"
+    },
+    {
+      "name": "compaction-monitor",
+      "source": "./plugins/compaction-monitor",
+      "description": "Monitor context utilization and compaction frequency to warn about quality degradation.",
+      "category": "utility"
+    },
+    {
+      "name": "git-author-check",
+      "source": "./plugins/git-author-check",
+      "description": "Validates git author email before commits to prevent wrong-identity commits that require interactive rebase to fix.",
+      "category": "git"
+    },
+    {
+      "name": "write-commit",
+      "source": "./plugins/write-commit",
+      "description": "Write a single Conventional Commits message from code changes.",
+      "category": "git"
+    },
+    {
+      "name": "write-pr",
+      "source": "./plugins/write-pr",
+      "description": "Write a PR title and description from the current branch diff.",
+      "category": "git"
+    },
+    {
+      "name": "conversation-summary",
+      "source": "./plugins/conversation-summary",
+      "description": "Injects a conversation summary reminder into Claude's context on every tool call. Opt-in via .conversation-summary.json config file.",
+      "category": "utility"
+    },
+    {
+      "name": "retry-loop-detector",
+      "source": "./plugins/retry-loop-detector",
+      "description": "Detects and warns when tools are called repeatedly with identical arguments, preventing context-wasting retry loops.",
+      "category": "guardrail"
+    },
+    {
+      "name": "circuit-breaker",
+      "source": "./plugins/circuit-breaker",
+      "description": "Tracks consecutive identical tool failures and blocks further attempts after 3 failures. Allowlists transient errors (429, ETIMEDOUT, DNS).",
+      "category": "guardrail"
+    },
+    {
+      "name": "sleep-cap",
+      "source": "./plugins/sleep-cap",
+      "description": "Blocks excessive sleep commands in Bash tool calls to prevent wasted wall-clock time.",
+      "category": "guardrail"
+    },
+    {
+      "name": "coding-preferences",
+      "source": "./plugins/coding-preferences",
+      "description": "Personal language-specific tooling preferences, exposed as per-language skills (e.g. python-playbook).",
+      "category": "core"
+    }
+  ]
+}

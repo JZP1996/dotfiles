@@ -1,0 +1,5 @@
+{
+  "name": "write-commit",
+  "version": "1.0.0",
+  "description": "Write a single Conventional Commits message from code changes."
+}

@@ -1,0 +1,5 @@
+{
+  "name": "write-pr",
+  "version": "1.0.0",
+  "description": "Write a PR title and description from the current branch diff."
+}

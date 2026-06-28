@@ -1,0 +1,22 @@
+{
+  "marketplaces": [
+    {
+      "name": "karpathy-skills",
+      "source": "multica-ai/andrej-karpathy-skills",
+      "plugins": [
+        "andrej-karpathy-skills"
+      ]
+    },
+    {
+      "name": "claude-plugins-official",
+      "source": "anthropics/claude-plugins-official",
+      "plugins": [
+        "code-review",
+        "code-simplifier",
+        "skill-creator",
+        "plugin-dev",
+        "security-guidance"
+      ]
+    }
+  ]
+}

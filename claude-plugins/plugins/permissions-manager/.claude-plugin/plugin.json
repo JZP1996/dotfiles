@@ -1,0 +1,5 @@
+{
+  "name": "permissions-manager",
+  "version": "1.0.0",
+  "description": "Manage Claude Code permissions by updating settings files to permanently allow or deny tools and commands."
+}

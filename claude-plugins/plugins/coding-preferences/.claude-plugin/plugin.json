@@ -1,0 +1,5 @@
+{
+  "name": "coding-preferences",
+  "version": "1.0.0",
+  "description": "Personal language-specific tooling preferences, exposed as per-language skills (e.g. python-playbook)."
+}

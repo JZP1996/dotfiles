@@ -1,0 +1,5 @@
+{
+  "name": "retry-loop-detector",
+  "version": "1.0.0",
+  "description": "Detects and warns when tools are called repeatedly with identical arguments, preventing context-wasting retry loops."
+}

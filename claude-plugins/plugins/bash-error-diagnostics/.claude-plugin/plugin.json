@@ -1,0 +1,5 @@
+{
+  "name": "bash-error-diagnostics",
+  "version": "1.0.0",
+  "description": "Reduces silent Bash failures with pipeline guidance and structured error classification to prevent blind retries"
+}

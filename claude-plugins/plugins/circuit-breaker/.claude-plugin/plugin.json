@@ -1,0 +1,5 @@
+{
+  "name": "circuit-breaker",
+  "version": "1.0.0",
+  "description": "Tracks consecutive identical tool failures and blocks further attempts after 3 failures. Prevents agents from burning context on broken tools (expired auth, downed services). Allowlists transient errors (429, ETIMEDOUT, DNS) that are worth retrying."
+}

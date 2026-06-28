@@ -1,0 +1,17 @@
+{
+  "description": "Validate git author email before commit commands to prevent wrong-identity commits",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/run-hook.js\"",
+            "timeout": 3
+          }
+        ]
+      }
+    ]
+  }
+}

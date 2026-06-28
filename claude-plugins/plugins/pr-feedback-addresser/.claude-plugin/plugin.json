@@ -1,0 +1,5 @@
+{
+  "name": "pr-feedback-addresser",
+  "version": "1.0.0",
+  "description": "Address PR review feedback by responding to comments, applying thumbs up reactions, and resolving review threads."
+}

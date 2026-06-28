@@ -1,0 +1,5 @@
+{
+  "name": "compaction-monitor",
+  "version": "1.0.0",
+  "description": "Monitor context utilization and compaction frequency to warn about quality degradation."
+}

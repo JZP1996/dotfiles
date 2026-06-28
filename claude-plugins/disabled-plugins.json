@@ -1,0 +1,5 @@
+{
+  "plugins": [
+    "plugin-dev@claude-plugins-official"
+  ]
+}

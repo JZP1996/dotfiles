@@ -1,0 +1,17 @@
+{
+  "description": "Inject conversation summary reminder into agent context",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/run-hook.js\"",
+            "timeout": 2
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Detect piped commands missing pipefail and classify Bash errors with structured diagnostics",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/run-hook-pre.js\"",
+            "timeout": 2
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/run-hook-post.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
